@@ -1,0 +1,308 @@
+.rectangle-div {
+  height: 107px;
+  width: 1591px;
+  position: relative;
+  box-shadow: 14px 17px 40px 4px rgba(112, 144, 176, 0.08);
+  border-radius: var(--br-mini);
+  background-color: var(--secondary-primary-white);
+  display: none;
+  max-width: 100%;
+}
+.home {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 42px;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 101px;
+  z-index: 1;
+}
+.background {
+  border: 0;
+  background-color: transparent;
+  width: 547px;
+  height: 41px;
+  font-family: var(--font-dm-sans);
+  font-size: var(--font-size-sm);
+  color: var(--color-lightslategray);
+  max-width: 100%;
+  z-index: 1;
+}
+.search-bar {
+  width: 627.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.notifications-none-icon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.header-action-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-5xs);
+}
+.notification-icon {
+  width: 18px;
+  height: 18px;
+  position: relative;
+  z-index: 1;
+}
+.notification-icon-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-2xs);
+}
+.info-outline-icon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.header-action-icons1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-5xs);
+}
+.info-icon {
+  width: 16px;
+  height: 21px;
+  position: relative;
+  z-index: 1;
+}
+.info-icon-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-3xs);
+}
+.user-profile {
+  align-self: stretch;
+  flex: 1;
+  z-index: 1;
+}
+.header-actions {
+  height: 41px;
+  width: 289px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.rectangle-parent {
+  margin: 0;
+  align-self: stretch;
+  box-shadow: 14px 17px 40px 4px rgba(112, 144, 176, 0.08);
+  border-radius: var(--br-mini);
+  background-color: var(--secondary-primary-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-14xl) var(--padding-24xl) var(--padding-13xl)
+    var(--padding-16xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  white-space: nowrap;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-15xl);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-poppins);
+}
+.good-morning-jefy {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 30px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.patient-summary-title-child {
+  height: 62px;
+  width: 62px;
+  position: relative;
+}
+.pagetitle4 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 30px;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 108px;
+}
+.patient-summary-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.patient-summary-detail-icons {
+  height: 46px;
+  width: 157.5px;
+}
+.patient-summary-detail-icons1 {
+  height: 46px;
+  flex: 1;
+  min-width: 112px;
+}
+.pagetitle5,
+.patient-summary-count1 {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 30px;
+  display: inline-block;
+}
+.patient-summary-count1 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  min-width: 12px;
+}
+.pagetitle5 {
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--color-dimgray-400);
+  min-width: 79px;
+}
+.patient-summary-count,
+.patient-summary-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.patient-summary-count {
+  border-radius: var(--br-5xl);
+  border: 1px dashed var(--color-indigo);
+  padding: var(--padding-7xs) var(--padding-mini);
+  gap: var(--gap-xs);
+}
+.patient-summary-details {
+  flex: 1;
+  gap: var(--gap-9xl);
+  min-width: 339px;
+  max-width: 100%;
+  font-size: var(--font-size-xl);
+}
+.home-header,
+.patient-summary,
+.user-greeting {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.patient-summary {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0 var(--padding-737xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-44xl);
+  font-size: var(--font-size-5xl);
+  color: var(--color-blueviolet);
+}
+.home-header,
+.user-greeting {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.user-greeting {
+  border-radius: var(--br-mini);
+  background-color: var(--secondary-primary-white);
+  padding: var(--padding-21xl) var(--padding-13xl);
+  box-sizing: border-box;
+  gap: var(--gap-23xl);
+}
+.home-header {
+  gap: var(--gap-10xl);
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-dm-sans);
+}
+@media screen and (max-width: 1225px) {
+  .rectangle-parent {
+    flex-wrap: wrap;
+    padding-right: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+  .patient-summary-details {
+    min-width: 100%;
+  }
+  .patient-summary {
+    padding-right: var(--padding-359xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .home {
+    font-size: var(--font-size-8xl);
+    line-height: 34px;
+  }
+  .good-morning-jefy {
+    font-size: var(--font-size-19xl);
+    line-height: 24px;
+  }
+  .patient-summary-details {
+    flex-wrap: wrap;
+  }
+  .patient-summary {
+    gap: var(--gap-12xl);
+    padding-right: var(--padding-170xl);
+    box-sizing: border-box;
+  }
+  .user-greeting {
+    gap: var(--gap-2xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .home {
+    font-size: var(--font-size-xl);
+    line-height: 25px;
+  }
+  .good-morning-jefy {
+    font-size: var(--font-size-10xl);
+    line-height: 18px;
+  }
+  .pagetitle4 {
+    font-size: var(--font-size-lgi);
+    line-height: 24px;
+  }
+  .patient-summary-count1 {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+  }
+  .patient-summary {
+    gap: var(--gap-base);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
